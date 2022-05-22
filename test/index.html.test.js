@@ -5,7 +5,7 @@ const { expect } = chai;
 describe("index.html", () => {
   describe("the title-box section", () => {
     it("has a <h4> element with the correct content", () => {
-      // find the element with an ID of title-box
+     
       const titleBox = document.querySelector("#title-box");
 
       const h4 = titleBox.querySelector("h4");
